@@ -1,0 +1,116 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+.profile-card {
+    background-color: rgba(255, 100, 0, 0.9); /* orange */
+}
+
+.profile-image {
+	background-color: rgba(255, 248, 53, .9); /* yellow 1 */
+}
+.name-headline {
+	background-color: rgba(180, 96, 255, .9); /* purple 2 */
+}
+.about {
+	background-color: rgba(255, 0, 0, .9); /* red 3 */
+}
+.links {
+	background-color: rgba(20, 255, 0, .9); /* green 4 */
+}
+
+/* ==== POSITION ====*/
+
+.profile-card {
+  margin: 1rem 1rem;
+  position: relative;
+  max-height: 100vw;
+}
+
+.box {
+  width: 100%;
+  position: absolute;
+}
+
+#box-01 {
+  height: 129px;
+  top: 0;
+}
+
+#box-02 {
+  height: 9.375rem;
+  top: 8.0625rem;
+}
+
+#box-03 {
+  height: 16.1875rem;
+  top: 17.4375rem;
+}
+
+#box-04 {
+  height: 6.25rem;
+  top: 33.625rem;
+}
+
+
+/* ==== Styles ====*/
+
+li {
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
