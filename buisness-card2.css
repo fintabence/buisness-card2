@@ -62,7 +62,12 @@ body {
   .profile-card {
     width: 480px;
     margin-top: 10%;
+    padding: 35px;
   }
+}
+
+.content {
+  padding: 10px;
 }
 
 /* BOX-01 */
@@ -112,7 +117,7 @@ img {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family: Verdana;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -143,7 +148,7 @@ h2 {
 
 
 #box-03 {
-  height: 16.1875rem;
+  height: 15.1875rem;
   font-size: 1.18rem;
   text-align: justify;
   font-family: verdana;
@@ -157,25 +162,32 @@ h2 {
   #box-03 {
     height: 10rem;
   }
+}
 
 /* BOX 4 */
 
 #box-04 {
-  height: 4rem;
+  height: 3.5rem;
   font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li {
   display: inline;
-  color: blue;
-  font-size: 2rem;
 }
 
+i {
+  color: blue;
+}
+  
 @media (min-width: 1024px) {
   
   #box-04 {
     height: 6rem;
-    padding: 5px;
+    padding: 1rem;
   }
   
   section i {
