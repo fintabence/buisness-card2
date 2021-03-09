@@ -9,61 +9,121 @@
 
 /* ==== HELPER COLORS FOR LAYOUT ==== */
 
-.profile-card {
-    background-color: rgba(255, 100, 0, 0.9); /* orange */
-}
-
+/*
 .profile-image {
 	background-color: rgba(255, 248, 53, .9); /* yellow 1 */
-}
+/*  }
+
 .name-headline {
 	background-color: rgba(180, 96, 255, .9); /* purple 2 */
-}
+/*  }
 .about {
 	background-color: rgba(255, 0, 0, .9); /* red 3 */
-}
+/*  }
 .links {
 	background-color: rgba(20, 255, 0, .9); /* green 4 */
-}
+/*  }
 
 /* ==== POSITION ====*/
 
+body {
+  margin: 1rem;
+}
+
 .profile-card {
-  margin: 1rem 1rem;
-  position: relative;
-  max-height: 100vw;
+  padding: 0;
 }
 
 .box {
-  width: 100%;
-  position: absolute;
+  display: block;
+  position: relative;
+  max-width: calc(100vw - 5px);
 }
-
-#box-01 {
-  height: 129px;
-  top: 0;
-}
-
-#box-02 {
-  height: 9.375rem;
-  top: 8.0625rem;
-}
-
-#box-03 {
-  height: 16.1875rem;
-  top: 17.4375rem;
-}
-
-#box-04 {
-  height: 6.25rem;
-  top: 33.625rem;
-}
-
 
 /* ==== Styles ====*/
 
+body {
+  text-align: center;
+  background: url('assets/photographer.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+/* BOX-01 */
+
+#box-01 {
+  height: 129px;
+}
+
+img {
+  border-radius: 30px;
+  margin-top: 1rem;
+}
+
+/* BOX-02 */
+
+#box-02 {
+  height: 9.375rem;
+  padding: .35rem;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Verdana;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-family: Helvetica;
+  letter-spacing: -0.05em;
+}
+
+#from {
+  font-size: 1rem;
+  font-family: Times New Roman;
+  opacity: 70%
+}
+
+#adress {
+  font-size: 1.1rem;
+  opacity: 70%
+}
+
+.fa-map-marker {
+  color: blue;
+}
+
+/* BOX-03 */
+
+
+#box-03 {
+  height: 16.1875rem;
+  font-size: 1.18rem;
+  text-align: justify;
+  font-family: verdana;
+  padding: 1.56rem;
+  text-align: center;
+}
+
+/* BOX 4 */
+
+#box-04 {
+  height: 4rem;
+  font-size: 1rem;
+}
+
 li {
   display: inline;
+  color: blue;
+  font-size: 2rem;
 }
 
 
